@@ -1,14 +1,14 @@
-# Archie - Hugo theme
-Archie is a minimal and clean theme for hugo with a markdown-ish UI.
+# Teko - Hugo theme
+Teko is a minimal and clean theme for hugo with a markdown-ish UI.
 
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil)
+Forked from [Archie Theme](https://github.com/athul/archie)
 
 ## Demo
 
-[Check the Demo](https://athul.github.io/archie/) hosted on GitHub Pages :smile: . You can find the source code to that in the `site` branch of this repository
+[Check the Demo](https://athul.github.io/Teko/) hosted on GitHub Pages :smile: . You can find the source code to that in the `site` branch of this repository
 
 ![](/images/theme.png)
-![](/images/archie-dark.png)
+![](/images/Teko-dark.png)
 ## Feature
 - Google Analytics Script
 - Callouts
@@ -24,9 +24,9 @@ In your Hugo website directory, create a new folder named theme and clone the re
 ```bash
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/athul/archie.git
+$ git clone https://github.com/duarte2025/teko.git
 ```
-Edit the `config.toml` file with `theme="archie"`
+Edit the `config.toml` file with `theme="Teko"`
 For more information read the official [setup guide](https://gohugo.io/installation/) of Hugo.
 
 If you encounter any issues with Google Analytics, update Hugo to v0.125.0 or
@@ -46,7 +46,7 @@ tags: [tag names] (optional)
 ```
 
 ## Credits
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
+Forked from [Archie Theme](https://github.com/athul/archie) and Licensed under MIT License
 Inspired by design of blog.jse.li
 
 ----
@@ -67,11 +67,11 @@ Note: CSS files should be placed under the `assets` directory e.g. `assets/css/f
 ## Config of the Demo Site
 
 ```toml
-baseURL = "https://athul.github.io/archie/"
+baseURL = "https://duarte2025.github.io/Teko/"
 languageCode = "en-us"
-title = "Archie"
-theme="archie"
-copyright = "© Athul"
+title = "Teko"
+theme="Teko"
+copyright = "© William M Duarte"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -84,7 +84,7 @@ paginate=3 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/duarte2025/teko)"
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
@@ -93,17 +93,17 @@ paginate=3 # articles per page
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/duarte2025/teko"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/athulcajay/"
+url = "https://twitter.com/duarte2025/"
 
 [[params.social]]
 name = "GitLab"
 icon = "gitlab"
-url = "https://gitlab.com/athul/"
+url = "https://gitlab.com/duarte2025/"
 
 # Main menu Items
 
@@ -129,6 +129,3 @@ weight = 4
 ```
 ---
 
-If you liked my work please consider supporting me on [BuymeACoffee](https://www.buymeacoffee.com/athulca)
-
-<a href="https://www.buymeacoffee.com/athulca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="41" width="174" ></a>
